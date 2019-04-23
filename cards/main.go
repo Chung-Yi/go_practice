@@ -19,9 +19,6 @@ func main() {
 	// cards := newDeckFromFile("mycards")
 
 	cards := newDeck()
-	// fmt.Println(cards)
-	// fmt.Println(cards.toString())
-	// fmt.Println(strings.Join([]string(cards), ","))
 	cards.shuffle()
 	cards.print()
 
